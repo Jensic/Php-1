@@ -1,0 +1,338 @@
+/* 
+=================================================
+            RESET STYLESHEET
+=================================================
+*/ 
+:root,html {
+    font-size: 62.5%;
+    font-family: 'Work Sans', sans-serif;
+    /*font-weight: lighter;*/
+}
+
+body {
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
+    background: transparent;
+    border: 0;
+    font-weight: 500;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+/* 
+=================================================
+                    BODY
+=================================================
+*/
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    padding-top: 48px;
+    height: 100vh;
+}
+.centrering {
+    margin: 0 auto;
+    width: 960px;
+}
+
+/* 
+=================================================
+                    HEADER
+=================================================
+*/
+header {
+    background-color: #0b3c5d;
+    font-size: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    white-space: nowrap;
+}
+
+.meny  {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.meny ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.meny ul li a {
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-size: 1.6rem;
+    height: 3em;
+    line-height: 3em;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 125px;
+}
+
+.meny ul a:hover {
+    background-color: #D9B310;
+}
+/*
+=================================================
+                    MAIN
+=================================================
+*/
+
+main {
+    background-color: #fff;
+}
+
+/* 
+-------------------------------------------------
+                 .HUVUDINNEHÅLL
+-------------------------------------------------
+*/
+
+.huvudinnehall {
+    padding: 40px;
+}
+
+/*
+-------------------------------------------------
+                    LISTA
+-------------------------------------------------
+*/
+.lista {
+    height: 100%;
+    width: 100%;
+    /*background-color: #FFE6DE; */
+}
+
+/*
+=================================================
+                .FRUITFORM
+=================================================
+*/
+.fruitform {
+    height: 100%;
+    width: 470px;
+}
+/*
+=================================================
+                .PRODUCTS
+=================================================
+*/
+
+.products {
+    border: solid #ccc 1px;
+    border-radius: 6px;
+    box-shadow: 0px 1px 1px #ccc;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.products tr:hover {
+    background: #fbf8e9;
+}
+
+.products td, th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.products th {
+    background-color: #dce9f9;
+    border-top: none;
+}
+
+.products input, textarea {
+    box-sizing: border-box;
+    border: 1px solid #999;
+    font: 1em sans-serif;
+    width: 100px;
+}
+
+/*
+=================================================
+                TOM
+=================================================
+*/
+
+/*
+=================================================
+                .PRODUCTS2
+=================================================
+*/
+
+form {
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    margin: 0 auto;
+    padding: 1em;
+    width: 450px;
+    height: 250px;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+    width: 100px;
+}
+
+input, textarea {
+    box-sizing: border-box;
+    border: 1px solid #999;
+    font: 1em sans-serif;
+    width: 300px;
+}
+
+input:focus,textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    height: 5em;
+    resize: vertical;
+    vertical-align: top;
+}
+
+/* 
+-------------------------------------------------
+                 .FIRST-INFO
+-------------------------------------------------
+*/
+
+.first-info {
+    padding: 40px;
+    white-space: nowrap;
+}
+
+.first-info h1 {
+    font-size: 34px;
+    font-size: 3.4rem;
+}
+
+.first-info > .first-text {
+    display: inline-block;
+    text-align: center;
+    white-space: normal;
+    width: 100%;
+}
+
+/*
+=================================================
+                    TOM
+=================================================
+*/
+
+
+/* 
+=================================================
+                    .FLEXCONTAINER
+=================================================
+*/
+
+.flexcontainer {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+/* 
+=================================================
+                    .FLEXCONTAINER2
+=================================================
+*/
+
+.flexcontainer2 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.flexcontainer2 input {
+    width: 100px;
+}
+
+/* 
+=================================================
+                    .FLEXCONTAINER3
+=================================================
+*/
+
+.flexcontainer3 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* 
+=================================================
+                    .FLEXCONTAINERFOOTER
+=================================================
+*/
+
+.flexcontainerfooter {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* 
+=================================================
+                    .FLEXCONTAINERHEADER
+=================================================
+*/
+
+.flexcontainerheader {
+    display: -webkit-flex;
+    display: flex;
+}
+
+
+/* 
+=================================================
+                    FOOTER
+=================================================
+*/
+
+footer {
+    background-color: #0b3c5d;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-innehall {
+    display: inline-block;
+    width: 32%;
+    vertical-align: top; 
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #D9B310;
+}
+
+
